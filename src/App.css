@@ -1,0 +1,48 @@
+.itemBox {
+  display: inline-flex;
+  padding: 6px;
+  width: 150px;
+  height: 200px;
+  position: relative;
+}
+
+.itemBox2 {
+  /* background-color: #fff !important; */
+  color: #000;
+  border-radius: 2px;
+  /* box-shadow: 0 0 5px rgba(0,0,0,0.75); */
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7d7d7;
+  width: 100%;
+}
+
+.itemName {
+  position: absolute;
+  bottom: 10px;
+  background: #dfdbdb;
+  width: 137px;
+  left: 6px;
+  height: 26px;
+  margin-bottom: -4px;
+}
+
+.deleteItem {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  font-size: 25px;
+  color: yellow;
+  cursor: pointer;
+}
+.ant-upload-list-item-error, .ant-upload-list-item-error .ant-upload-text-icon > .anticon, .ant-upload-list-item-error .ant-upload-list-item-name {
+  color: #000 !important;
+}
+.ant-upload-list.ant-upload-list-picture-card .ant-tooltip-inner {
+  display: none;
+}
+
+.ant-upload-list.ant-upload-list-text .ant-tooltip-inner {
+  display: none;
+}
