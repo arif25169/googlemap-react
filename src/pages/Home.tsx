@@ -218,7 +218,7 @@ export default function StepOne() {
                     <div style={{ height: "70vh", width: "100%" }}>
                         <GoogleMapReact
                             bootstrapURLKeys={{
-                                key: "AIzaSyC9qLEle01PHkYJvggoPczt9ZdVnX2Lq6g",
+                                key: "GOOGLE_API_USE_ENV",
                             }}
                             defaultCenter={center}
                             center={center}
